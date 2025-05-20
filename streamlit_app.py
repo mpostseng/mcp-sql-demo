@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-st.set_page_config(page_title="交易查詢助手", page_icon="💰")
-st.title("📊 交易資料語言查詢展示")
+st.set_page_config(page_title="API 呼叫資料查詢助手", page_icon="💰")
+st.title("📊 API 呼叫資料查詢展示")
 
 question = st.text_input("請輸入查詢問題（例如：查 API_NAME 為 clmExt-prod-GetMemberIdno 的成功呼叫次數）")
 

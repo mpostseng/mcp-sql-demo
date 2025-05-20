@@ -9,7 +9,7 @@ question = st.text_input("請輸入查詢問題（例如：查 API_NAME 為 clmE
 if st.button("查詢") and question:
     with st.spinner("正在查詢中..."):
         try:
-            api_url = "https://你的-fastapi-api.com/ask"  # ← 改成你的後端 API
+            api_url = "https://sql-chat-fastapi-demo.onrender.com/ask"  # ← 改成你的後端 API
             response = requests.post(api_url, json={"question": question})
             data = response.json()
 
